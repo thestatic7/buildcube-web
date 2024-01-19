@@ -1,0 +1,152 @@
+/* Header */
+div.headerback { /* Prevents the content from being underneath the header */
+	min-height: 150px;
+}
+img.main { /* logo */
+	vertical-align: middle;
+	max-height: 130px;
+	margin: 10px;
+}
+/* Top menu */
+.navbar {
+	width: 100%;
+	padding: 0;
+}
+.navbar-nav {
+	width: 100%;
+	float: right;
+}
+.griH .nav-item {
+	width: 100%;
+	box-sizing: border-box;
+	height: inherit;
+	text-align: center;
+}
+.menu { /* The list */
+	list-style-type: none;
+	position: sticky;
+	border-radius: 0;
+	box-shadow: 0 3px 4px 1px rgba(150,160,151,0.2), 0 1px 2px 0 rgba(100,102,101,0.5);
+	background-image: linear-gradient(80deg, #7a8fcb, #7a8fcb 10%, #ddd 99.9%);
+	z-index: 0;
+	box-sizing: border-box;
+}
+.griH .nav-link {
+	padding: 0;
+	font-size: 28px;
+	text-decoration: none;
+	margin-top: auto;
+	margin-bottom: auto;
+	line-height: 150px;
+	display: block;
+	font-family: Roboto;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	/* Do not remove */
+}
+.navbar-toggler {
+	height: 48px;
+	margin-right: 10px;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: #fef;
+}
+.main-info {
+	width: 20%;
+	text-align: center;
+	line-height: 100%;
+	font-size: 24px;
+	display: block;
+}
+@media (max-width: 991.98px) {
+	.main-info {
+		width: auto;
+	}
+}
+@media (max-width: 767.98px) {
+	.main-info.ip {
+		display: none;
+	}
+}
+.navbar-dark {
+	background-color: rgba(21,28,38,0.5);
+}
+@media (max-width: 991.98px) {
+	.griTM {
+		height: auto;
+	}
+}
+/* @keyframes tophover { /* Hover of the <li> element *
+	from {
+		background-color: transparent;
+		box-shadow: inset 0px -47px 21px -30px rgba(21,28,38,0.5);
+		box-shadow: inset 0px 47px 21px -30px rgba(21,28,38,0.5);
+		}
+	to {
+		background-color: rgba(255,255,255,0.1);
+		color: #cec;
+		box-shadow: inset 0px -47px 21px -30px rgba(21,28,38,0.5);
+		box-shadow: inset 0px 47px 21px -30px rgba(21,28,38,0.5);
+		}
+} */
+@keyframes athover { /* Hover of the <a> element */
+	from {
+		color: #fff;
+	}
+	to {
+		color: #dde;
+	}
+}
+/* @keyframes atacthover { /* Hover of the active <li> element *
+	from {
+		background-color: rgba(167,207,244,0.1);
+		box-shadow: inset 0px -47px 21px -30px rgba(21,28,38,0.5);
+		box-shadow: inset 0px 47px 21px -30px rgba(21,28,38,0.5);
+	}
+	to {
+		background-color: rgba(255,255,255,0.1);
+		box-shadow: inset 0px -47px 21px -30px rgba(21,28,38,0.5);
+		box-shadow: inset 0px 47px 21px -30px rgba(21,28,38,0.5);
+	}
+}
+*/
+@keyframes tacthover { /* Hover of the active <a> element */
+	from {
+		color: #ddf;
+	}
+	to {
+		color: #fff;
+	}
+}
+/*
+.nav-link:not(#active):hover { /* Animation of inactive a *
+	animation-name: athover;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+.nav-item:not(#active):hover { /* Animation of inactive li *
+	animation-name: tophover;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+.nav-link#active:hover { /* Animation of active a *
+	animation-name: tacthover;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+}
+.nav-item#active:hover { /* Animation of active li *
+	animation-name: atacthover;
+	animation-duration: 0.5s;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in;
+} */
+li#active {
+	background-color: rgba(255,255,255,0.02);
+}
+a#active {
+	color: #ddf;
+}
+

@@ -1,0 +1,50 @@
+<h1><a id="linkback" href="/main" class="linkback link_internal">«</a> Premium</h1>
+<hr class="separator">   
+<div class="itemflex">
+    <div class="item-showcase">
+        <div class="icon-wrapper">
+            <img src="/lib/shopicon/premium.png" class="iconimg">
+        </div>
+        <form action="#" method="post" onsubmit="return false;">
+            <label for="username"><b>Никнейм:</b></label><br /><br />
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#session"><span>Ваш аккаунт</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#custom"><span>Другой ник</span></a>
+                </li>
+            </ul><br />
+            <div class="tab-content">
+                <div class="tab-pane container active" id="session">
+                    <h3 id="__php_user"></h3><br>
+                </div>
+                <div class="tab-pane container fade" id="custom">
+                    <input type="string" name="username" id="username">
+                </div>
+            </div>
+            <input type="submit" value="Купить" class="loginbtn widebtn" onclick="offerPurchase(1);">
+        </form>
+        <span id="__php_message"></span>
+    </div>
+    <div class="item-description">
+        <h3>Привилегия <b>Premium</b> — это:</h3>
+        <ul class="descriptivelist">
+            <li><b>5</b> плотов вместо <b>3</b></li>
+            <li>Можно соединить <b>9</b> плотов</li>
+            <li><b>3</b> поинта вместо <b>1</b></li>
+            <li>Возможность использовать стойки для брони (<code>/ase</code>)</li>
+            <li>Поддерживаются <b>все</b> возможности редактирования стоек, включая невидимость и переименование</li>
+            <li>Двойной прыжок в лобби</li>
+            <li>Возможность скачать плот командой <code>/p download</code></li>
+            <li>Доступ к команде <code>//regen</code></li>
+            <li>Доступ к включению ночного зрения командой <code>/nv</code></li>
+            <li>Лимит друзей увеличен с <b>10</b> до <b>30</b></li>
+            <li>Возможность надеть блок на голову командой <code>/hat</code></li>
+            <li>Возможность запустить фейерверк командой <code>/fw</code></li>  
+            <li>Приветствие на серверах при входе</li>         
+        </ul>
+        <h3>100 <span style="font-family: Tahoma;">₽</span></h3>
+        <p><b style="color: red;">Важно!</b> На сайт нужно <span style="color: red;">обязательно</span> вернуться после проведения платежа, иначе оплата не будет подтверждена со стороны сервера!</p>
+    </div>
+</div>

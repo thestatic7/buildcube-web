@@ -1,0 +1,26 @@
+.table, .table-responsive-md {
+    width: 100%;
+}
+.table-responsive-md {
+	overflow-x: auto;
+}
+td:first-child {  
+	min-width: 200px;
+}
+table .close {
+	color: red;
+}
+table .check {
+	color: green;
+}
+.table-wrapper {
+	position: relative;
+	justify-content: center;
+	width: 100%;
+}
+.table-scroll {
+	overflow-x: auto;
+}
+.table-wrapper table {
+	width:100%;
+}

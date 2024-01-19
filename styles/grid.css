@@ -1,0 +1,52 @@
+/* Grid */
+div.grc { /* Grid container */
+	display: grid;
+	grid-template-rows: auto auto 1fr 102px;
+	height: 100%;
+}
+.griH { /* Grid Header */
+	grid-column: 1;
+	grid-row: 1;
+}
+.griTM { /* Grid Top Menu */
+	grid-column: 1;
+	width: 100%;
+	grid-row: 2;
+}
+.griMB { /* Grid Main Body */
+	grid-column: 1;
+	width: 100%;
+	grid-row: 3;
+}
+.griF { /* Grid Footer */
+	grid-column: 1;
+	grid-row: 4;
+	height: 102px;
+}
+/* Smol grid */
+@media (max-width: 786px) and (orientation: portrait) {
+	div.grc { /* Grid container */
+		display: grid;
+		grid-column-gap: 0%;
+		grid-template-rows: auto auto 1fr 102px;
+	}
+	.griH { /* Grid Header */
+		grid-column: 1;
+		grid-row: 1;
+	}
+	.griTM { /* Grid Top Menu */
+		grid-column: 1;
+		width: 100%;
+		grid-row: 2;
+	}
+	.griMB { /* Grid Main Body */
+		grid-column: 1;
+		grid-row: 3;
+		width: 100%;
+	}
+	.griF { /* Grid Footer */
+		grid-column: 1;
+		grid-row: 4;
+		height: 102px;
+	}
+}

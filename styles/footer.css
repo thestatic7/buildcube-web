@@ -1,0 +1,50 @@
+/* Footer */
+div.footer {
+	width: 100%;
+	height: 102px;
+	background-color: rgba(21,28,38,0.9);
+	padding: 0;
+	position: absolute;
+	max-height: 102px;
+}
+div.footer p {
+	color: rgba(204,204,255,0.8);
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Open Sans;
+	padding-left: 2%;
+	line-height: 14px;
+	margin-left: 0;
+	text-shadow: 1px 1px rgba(127,127,127,0.1);
+	padding-top: 0;
+}
+#copyright {
+	font-size: 14px;
+}
+div.fpadding div p a {
+	text-shadow: 1px 1px rgba(127,127,127,0.1);
+	color: rgba(204,204,255,0.8);
+}
+#mail {
+	float: right;
+	text-align: right;
+	padding-right: 2%;
+	line-height: 16px;
+}
+div.fpadding {
+	width: 100%;
+	list-style-type: none;
+	display: flex;
+	display:inline-block;
+}
+div.fpadding div {
+	width: 100%;
+	padding-top: 18px;
+	padding-bottom: 18px;
+}
+@media (max-width: 548px) {
+	div.fpadding div {
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Host: buildcube.ru
+Sitemap: http://buildcube.ru/sitemap.xml

@@ -1,0 +1,110 @@
+/* Posts */
+.date {
+	text-align: right;
+	float: right;
+	color: rgba(0,0,0,0.5);
+	font-size: 14px;
+}
+div.mainpage div.postheader p.phpar { /* Post Header Paragraph */
+	font-size: 20px;
+}
+.postheader {
+	padding: 8px;
+	background-color: rgba(127,127,127,0.1);
+}
+.postbody {
+	padding: 16px;
+}
+.btn-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50%;
+}
+/* Audio */
+img.cover {
+	width: 70%;
+	object-fit: contain;
+	max-width: 500px;
+	max-height: 500px;
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.google {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+	object-fit: contain;
+}
+div.audio {
+	padding: auto;
+	width: 86%;
+	margin: auto;
+}
+/* Comics */
+.comlink {
+	display: block;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 23px;
+}
+img.comimg {
+	width: 100%;
+	object-fit: contain;
+	display: inherit;
+}
+.comcoll {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.comcont {
+	padding-bottom: 24px;
+}
+.fullimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cleanbtn {
+	border: 0;
+	background-color: transparent;
+}
+@media (min-width: 576px) and (max-width: 991.98px) {
+	.modal-xl {
+		max-width: calc(100% - 4px) !important;
+		padding-left: 17px;
+	}
+}
+/* Books */
+.flexcont {
+	display: flex;
+	height: auto;
+	flex-direction: column;
+}
+.bookmenu {
+	padding: 10px;
+	background-color: rgba(0,0,0,0.1);
+}
+.bookmenu-p {
+	display: block;
+	width: 100%;
+}
+div.mainpage p.fn {
+	font-size: 12px;
+}
+#bookhome {
+	text-align: center;
+}
+#bookprev {
+	float: left;
+}
+#booknext {
+	float: right;
+}

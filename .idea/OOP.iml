@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/forum/applications/convert/sources/Tools/Vanilla/Parsedown/" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/applications/convert/sources/Tools/Vanilla/Parsedown/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/applications/convert/sources/Tools/Vanilla/Parsedown/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/Brick/src" isTestSource="false" packagePrefix="Brick\Math\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/Brick/tests" isTestSource="true" packagePrefix="Brick\Math\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/Brick/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JShrink/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JShrink/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/performance" isTestSource="true" packagePrefix="Jose\Performance\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src" isTestSource="false" packagePrefix="Jose\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/Checker/" isTestSource="false" packagePrefix="Jose\Component\Checker\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/Console/" isTestSource="false" packagePrefix="Jose\Component\Console\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/Core/" isTestSource="false" packagePrefix="Jose\Component\Core\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/Core/Util/Easy/" isTestSource="false" packagePrefix="Jose\Easy\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/Core/Util/Ecc/" isTestSource="false" packagePrefix="Jose\Component\Core\Util\Ecc\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/Encryption/" isTestSource="false" packagePrefix="Jose\Component\Encryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/KeyManagement/" isTestSource="false" packagePrefix="Jose\Component\KeyManagement\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/NestedToken/" isTestSource="false" packagePrefix="Jose\Component\NestedToken\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/Signature/" isTestSource="false" packagePrefix="Jose\Component\Signature\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/Signature/Algorithm/" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Component/Signature/Algorithm/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/Ecc" isTestSource="false" packagePrefix="Jose\Component\Core\Util\Ecc\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/ContentEncryption/AESCBC" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\ContentEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/ContentEncryption/AESCBC/" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\ContentEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/ContentEncryption/AESGCM" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\ContentEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/ContentEncryption/AESGCM/" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\ContentEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/Experimental" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/Experimental/" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/AESGCMKW" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/AESGCMKW/" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/AESKW" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/AESKW/" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/Direct" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/Direct/" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/ECDHES" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/ECDHES/" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/PBES2" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/PBES2/" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/RSA" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/EncryptionAlgorithm/KeyEncryption/RSA/" isTestSource="false" packagePrefix="Jose\Component\Encryption\Algorithm\KeyEncryption\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/ECDSA" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/ECDSA/" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/EdDSA" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/EdDSA/" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/Experimental" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/Experimental/" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/HMAC" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/HMAC/" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/None" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/None/" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/RSA" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/src/SignatureAlgorithm/RSA/" isTestSource="false" packagePrefix="Jose\Component\Signature\Algorithm\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/tests" isTestSource="true" packagePrefix="Jose\Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/JwtFramework/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/Minishlink/src" isTestSource="false" packagePrefix="Minishlink\WebPush\" />
+      <sourceFolder url="file://$MODULE_DIR$/forum/system/3rd_party/Minishlink/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/lib" isTestSource="false" packagePrefix="YooKassa\" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/tests" isTestSource="true" packagePrefix="Tests\YooKassa\" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

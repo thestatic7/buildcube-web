@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PHPUnit">
+    <option name="directories">
+      <list>
+        <option value="$PROJECT_DIR$/forum/applications/convert/sources/Tools/Vanilla/Parsedown/tests" />
+        <option value="$PROJECT_DIR$/forum/system/3rd_party/JwtFramework/tests" />
+        <option value="$PROJECT_DIR$/forum/system/3rd_party/Brick/tests" />
+        <option value="$PROJECT_DIR$/forum/system/3rd_party/JShrink/tests" />
+        <option value="$PROJECT_DIR$/forum/system/3rd_party/Minishlink/tests" />
+        <option value="$PROJECT_DIR$/lib/tests" />
+        <option value="$PROJECT_DIR$/forum/system/3rd_party/JwtFramework/src/Component/Signature/Algorithm/Tests" />
+      </list>
+    </option>
+  </component>
+</project>

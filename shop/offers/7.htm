@@ -1,0 +1,44 @@
+<h1><a id="linkback" href="/main" class="linkback link_internal">«</a> Кубы (BCC)</h1>
+<hr class="separator">   
+<div class="itemflex">
+    <div class="item-showcase">
+        <div class="icon-wrapper">
+            <img src="/lib/shopicon/crypto.png" class="iconimg">
+        </div>
+        <form action="#" method="post" onsubmit="return false;">
+            <label for="username"><b>Никнейм:</b></label><br /><br />
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="pill" href="#session"><span>Ваш аккаунт</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="pill" href="#custom"><span>Другой ник</span></a>
+                </li>
+            </ul><br />
+            <div class="tab-content">
+                <div class="tab-pane container active" id="session">
+                    <h3 id="__php_user"></h3><br>
+                </div>
+                <div class="tab-pane container fade" id="custom">
+                    <input type="string" name="username" id="username">
+                </div>
+            </div>
+            <label for="amount">Количество:</label><br />
+            <input type="number" name="amount" id="amount" step="1" value="0" oninput="cryptoUpdate();" min="0"><br />
+            <input type="submit" value="Купить" class="loginbtn widebtn" onclick="offerPurchase(7);">
+        </form>
+        <p>Стоимость: <span id="cryptoprice">0.00</span> <span style="font-family: Tahoma;">₽</span>.</p>
+        <span id="__php_message"></span>
+    </div>
+    <div class="item-description">
+        <h3>Что такое BCC?</h3>
+        <p>BCC или <b>кубы</b> — виртуальная криптовалюта, которую можно приобрести в игре или купить в магазине.</p>
+        <h3>Что можно делать с BCC?</h3>
+        <ul class="descriptivelist">
+            <li>Конвертировать в <b>билдкоины</b> (курс: 1 BCC = 1000 билдкоинов)</li>
+            <li>Купить привилегии (до <a href="/buy/3" class="link_internal">Ultra</a>)</li>
+        </ul>
+        <h3>Курс: <b>1</b> BCC = <b class="conversion" id="conversion"></b> <span style="font-family: Tahoma;">₽</span> (обновляется раз в 1 мин)</h3>
+        <p><b style="color: red;">Важно!</b> На сайт нужно <span style="color: red;">обязательно</span> вернуться после проведения платежа, иначе оплата не будет подтверждена со стороны сервера!</p>
+    </div>
+</div>

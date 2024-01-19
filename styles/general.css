@@ -1,0 +1,73 @@
+/* General styles */
+aside {
+	display: none;
+}
+html {
+	min-height: 100%;
+	display: flex;
+}
+a {
+	color: #25348a;
+	transition: color 0.5s;
+}
+a:hover {
+	text-decoration: none;
+	color: #7e8ce0;
+}
+audio {
+	width: 100%;
+	display: block;
+	border-radius: 0;
+}
+@media (max-width: 991.98px) {
+	body {
+		background-size: auto 100% !important;
+	}
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+	overflow-y: visible;
+	background-image: url("../k4.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Open Sans, Tahoma, Arial;
+	background-size: 100% 100%;
+	font-size: 18px;
+	flex: 1;
+	color: #fef;
+}
+p {
+	padding-top: 2px;
+	overflow: hidden;
+	word-wrap: break-word;
+}
+p::first-letter {
+	padding-left: 16px;
+}
+b, strong {
+	font-weight: bold;
+}
+i, em {
+	font-style: italic;
+}
+s, strike {
+	text-decoration: line-through;
+	color: #ccc;
+}
+sup {
+	font-size: 9px;
+}
+.modal p {
+	color: #000;
+	line-height: 26px;
+}
+.modal h4 {
+	color: #000;
+}
+body { 
+	padding-right: 0 !important;
+}
+.modal.fade {
+	padding-right: 0 !important;
+}
